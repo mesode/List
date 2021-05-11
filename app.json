@@ -1,0 +1,12 @@
+{
+  "name": "Lists",
+  "displayName": "Lists",
+  "expo": {
+    "name": "Lists",
+    "slug": "Lists",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
