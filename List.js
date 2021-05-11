@@ -28,10 +28,10 @@ const class List extends Component {
                     this.state.names.map ((item, index) => {
                         <TouchableOpacity
                         key = {item.id}
-                        style = {StyleSheet.container}
+                        style = {styles.container}
                         onPress = {() => this.alertItemName(item)} >
 
-                        <Text style = {StyleSheet.text}>
+                        <Text style = {styles.text}>
                             {item.name}
                         </Text>
                       </TouchableOpacity>
